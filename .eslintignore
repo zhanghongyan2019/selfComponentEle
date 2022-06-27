@@ -1,0 +1,9 @@
+/node_modules/
+/dist/
+.vscode/
+/build/
+/config/
+/static/
+/index.html
+/src/utils/
+/src/components/UI/

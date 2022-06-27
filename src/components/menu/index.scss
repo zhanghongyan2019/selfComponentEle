@@ -1,0 +1,9 @@
+.menu{
+  &.horizontal{
+    display: flex;
+  }
+  li{
+    list-style: none;
+  }
+}
+.sub-menu{}
