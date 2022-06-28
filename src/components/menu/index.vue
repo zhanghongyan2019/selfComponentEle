@@ -1,7 +1,7 @@
 <template>
   <ul
     class="menu"
-    :class="{'horizontal': mode === 'horizontal'}"
+    :class="[mode]"
     :style="{backgroundColor: backgroundColor, color: textColor}">
     <slot :active="111"></slot>
   </ul>
@@ -10,7 +10,12 @@
 export default {
   name: 'navMenu',
   data () {
-    return {}
+    return {
+      activeIndex: this.defaultActive || '',
+      hoverIndex: ''
+    }
+  },
+  mounted() {
   },
   methods: {
     open (index) {
@@ -18,7 +23,7 @@ export default {
       * 功能 展开指定的sub-menu
       * @params  index 需要打开的sub-menu的index
       * */
-      console.log(index)
+      console.log()
     },
     close (index) {
       /*
@@ -26,6 +31,15 @@ export default {
       * @params  index 需要打开的sub-menu的index
       * */
       console.log(index)
+    },
+    handleItemClick (index) {
+      this.activeIndex = index
+    },
+    handleMouseEnter (index) {
+      this.hoverIndex = index
+    },
+    handleMouseLeave () {
+      this.hoverIndex = ''
     }
   },
   props: {

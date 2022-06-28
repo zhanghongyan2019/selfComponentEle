@@ -1,9 +1,9 @@
 .menu{
+  padding-left: 0;
   &.horizontal{
     display: flex;
   }
-  li{
-    list-style: none;
+  &.vertical{
+    width: 240px;
   }
 }
-.sub-menu{}
