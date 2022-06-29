@@ -2,7 +2,7 @@
   <div class="table">
     <div class="hidden-columns"><slot></slot></div>
     <div class="table-header__wrapper">
-      <tableHeader class="table-header__content" :store="store"></tableHeader>
+      <tableHeader :store="store"></tableHeader>
     </div>
     <div class="table-body__wrapper">
       <tableBody :store="store"></tableBody>

@@ -11,8 +11,10 @@
 .table-header{
   &__wrapper{}
   &__content{
-    display: flex;
-    font-size: 12px;
-    font-weight: normal;
+    tr {
+      display: flex;
+      font-size: 12px;
+      font-weight: normal;
+    }
   }
 }

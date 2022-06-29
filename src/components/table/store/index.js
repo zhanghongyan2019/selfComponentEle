@@ -4,7 +4,6 @@ Watcher.prototype.mutations = {
   insertColumns (states, column, index) {
     let array = states._columns
     array.push(column)
-    console.log(array)
   }
 }
 
