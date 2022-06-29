@@ -1,6 +1,18 @@
 <template>
   <div>
-    <selfTable></selfTable>
+    <selfTable :data="tableData">
+      <tableColumn
+        prop="date"
+        label="日期"
+        width="180"></tableColumn>
+      <tableColumn
+        prop="name"
+        label="姓名"
+        width="180"></tableColumn>
+      <tableColumn
+        prop="address"
+        label="地址"></tableColumn>
+    </selfTable>
   </div>
 </template>
 <script>

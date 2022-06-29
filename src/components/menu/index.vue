@@ -3,7 +3,7 @@
     class="menu"
     :class="[mode]"
     :style="{backgroundColor: backgroundColor, color: textColor}">
-    <slot :active="111"></slot>
+    <slot></slot>
   </ul>
 </template>
 <script>

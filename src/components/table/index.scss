@@ -1,0 +1,18 @@
+.table {
+  /deep/ th{
+    padding: 12px;
+    text-align: left;
+  }
+  /deep/ td {
+    padding: 12px;
+    text-align: left;
+  }
+}
+.table-header{
+  &__wrapper{}
+  &__content{
+    display: flex;
+    font-size: 12px;
+    font-weight: normal;
+  }
+}

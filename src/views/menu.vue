@@ -7,11 +7,6 @@
         <menu-item index="2-1">选项1</menu-item>
         <menu-item index="2-2">选项2</menu-item>
         <menu-item index="2-3">选项3</menu-item>
-        <sub-menu index="2-4" title="选项4">
-          <menu-item index="2-4-1">选项1</menu-item>
-          <menu-item index="2-4-2">选项2</menu-item>
-          <menu-item index="2-4-3">选项3</menu-item>
-        </sub-menu>
       </sub-menu>
       <menu-item index="3" disabled>消息中心</menu-item>
       <menu-item index="4">订单管理</menu-item>
@@ -28,11 +23,6 @@
         <menu-item index="2-1">选项1</menu-item>
         <menu-item index="2-2">选项2</menu-item>
         <menu-item index="2-3">选项3</menu-item>
-        <sub-menu index="2-4" title="选项4">
-          <menu-item index="2-4-1">选项1</menu-item>
-          <menu-item index="2-4-2">选项2</menu-item>
-          <menu-item index="2-4-3">选项3</menu-item>
-        </sub-menu>
       </sub-menu>
       <menu-item index="3" disabled>消息中心</menu-item>
       <menu-item index="4">订单管理</menu-item>
